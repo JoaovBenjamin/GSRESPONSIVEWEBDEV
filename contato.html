@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nourish SenseIA</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="index.html" class="lista-menu__link">Home</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="cultivo.html" class="lista-menu__link">Cultivo Sustentável</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="projeto.html" class="lista-menu__link">Projeto</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="agricultura.html" class="lista-menu__link">Agricultura Sustentável</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="iagenerativa.html" class="lista-menu__link">IA Generativa</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="contato.html" class="lista-menu__link">Contato</a>
+                </li>
+            </ul>
+            <img src="/assets/Logo.png" alt="Logo Green Valley" class="container__imagem ">
+            <p class="container__nome">Nourish SenseIA</p>
+        </div>
+        <div class="opcoes">
+            <ul class="opcoes__lista">
+                <li class="opcoes__item">
+                    <a href="index.html" class="opcoes__link">Home</a>
+                </li>
+                <li class="opcoes__item">
+                    <a href="agricultura.html" class="opcoes__link">Agricultura Sustentável</a>
+                </li>
+                <li class="opcoes__item">
+                    <a href="iagenerativa.html" class="opcoes__link">IA Generativa</a>
+                </li>
+                <li class="opcoes__item">
+                    <a href="cultivo.html" class="opcoes__link">Cultivo Sustentável</a>
+                </li>
+                <li class="opcoes__item">
+                    <a href="projeto.html" class="opcoes__link">Projeto</a>
+                </li>
+                <li class="opcoes__item">
+                    <a href="contato.html" class="opcoes__link">Contato</a>
+                </li>
+            </ul>
+            </ul>
+        </div>
+    </header>
+    <section class="form">
+        <div class="text-container">
+            <div class="text-content">
+                <h1 class="text-content__titulo">Nós ajude você também nessa missão !</h1>
+                <p class="text-content__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at feugiat enim. Quisque id nulla a ligula
+                    accumsan facilisis.</p>
+                <p class="text-content__texto">Nulla facilisi. Vivamus tristique felis id ligula dapibus facilisis. Fusce in placerat mauris.</p>
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-field">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="form-field">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome">
+            </div>
+            <div class="form-field">
+                <label for="data-nascimento">Data de Nascimento:</label>
+                <input type="date" id="data-nascimento" name="data-nascimento">
+            </div>
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-field">
+                <label for="telefone">Celular:</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+            <div class="form-field">
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+            </div>
+            <div class="form-field">
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro">
+            </div>
+            <div class="form-field">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep">
+            </div>
+            <div class="form-field">
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" name="rua">
+            </div>
+            <div class="form-field">
+                <label for="numero">Número:</label>
+                <input type="text" id="numero" name="numero">
+            </div>
+            <div class="form-field">
+                <label for="complemento">Complemento:</label>
+                <input id="complemento" name="complemento"></input>
+            </div>
+        </div>
+        <div class="form__botao">
+            <button type="submit" class="botao__enviar">Enviar</button>
+        </div>
+
+    </section>
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <div class="rodape__logo">
+                <img src="/assets/Logo.png" alt="Logo Green Valley">
+                <p>Nourish SenseIA</p>
+            </div>
+
+        </div>
+        <div class="rodape__conteudo">
+            <h3 class="conteudo__texto">Menu</h3>
+            <ul class="conteudo_lista">
+                <li class="lista__itens">
+                    <a href="index.html" class="lista__link">Home<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="agricultura.html" class="lista__link">Agricultura Sustentável<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="cultivo.html" class="lista__link">Cultivo Sustentável<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="iagenerativa.html" class="lista__link">IA Generativa<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="projeto.html" class="lista__link">Projeto<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="contato.html" class="lista__link">Contato<a>
+                </li>
+            </ul>
+        </div>
+        <div class="rodape__conteudo">
+            <h3 class="conteudo__texto">Membros</h3>
+            <ul class="conteudo_lista">
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">Eduardo Bezzera<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">Jeffeson Mendes<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">João Vitor Benjamin<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">Silas Henrique da Silva<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">Victor Manssur<a>
+                </li>
+            </ul>
+        </div>
+        <div class="rodape__conteudo">
+            <h3 class="conteudo__texto">RM</h3>
+            <ul class="conteudo_lista">
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">RM:98890<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">RM:552052<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">RM:98938<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">RM:98965<a>
+                </li>
+                <li class="lista__itens">
+                    <a href="#" class="lista__link">RM:98930<a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
